@@ -3,13 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="<?php echo CSS; ?>index.css">
+	<link rel="stylesheet" href="<?php echo CSS; ?>public.css">
 </head>
 <body>
 	<div class="top">
 		<div class="loga">
-			<img src="images/log.jpg" alt="">
+			<img src="<?php echo IMG; ?>/log.jpg" alt="">
 		</div>
 		<ul class="list">
 			<li><a href="">首页</a></li>
@@ -21,10 +21,10 @@
 	</div>
 	<div class="bannerbox">
 	 
-		<a href=""><img src="images/banner1.jpg" alt=""></a>
-		<a href=""><img src="images/banner2.jpg" alt=""></a>
-		<a href=""><img src="images/banner3.jpg" alt=""></a>
-		<a href=""><img src="images/banner4.jpg" alt=""></a>
+		<a href=""><img src="<?php echo IMG; ?>/banner1.jpg" alt=""></a>
+		<a href=""><img src="<?php echo IMG; ?>/banner2.jpg" alt=""></a>
+		<a href=""><img src="<?php echo IMG; ?>/banner3.jpg" alt=""></a>
+		<a href=""><img src="<?php echo IMG; ?>/banner4.jpg" alt=""></a>
 	 
 		<div class="left"><</div>
 		<div class="right">></div>
@@ -34,9 +34,9 @@
 	</div>
 	<div id="feature-wrapper">
 		<a class="back-top"><i class="fa fa-icon-circle-arrow-up"></i></a>
-		<div class="featurebox"><img src="images/pic01.jpg" alt=""></div>
-		<div class="featurebox"><img src="images/pic02.jpg" alt=""></div>
-		<div class="featurebox"><img src="images/pic03.jpg" alt=""></div>
+		<div class="featurebox"><img src="<?php echo IMG; ?>/pic01.jpg" alt=""></div>
+		<div class="featurebox"><img src="<?php echo IMG; ?>/pic02.jpg" alt=""></div>
+		<div class="featurebox"><img src="<?php echo IMG; ?>/pic03.jpg" alt=""></div>
 	</div>
 	<div class="mapfooter">
 			<!-- <div class="mapfooter-app">
@@ -67,7 +67,7 @@
 
 		</div>
 </body>
-<script src="js/jquery.1.12.3.js"></script>
-<script src="js/index.js"></script>
+<script src="<?php echo JS; ?>jquery.1.12.3.js"></script>
+<script src="<?php echo JS; ?>index.js"></script>
 
 </html>
